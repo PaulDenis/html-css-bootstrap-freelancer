@@ -33,6 +33,24 @@ h3 {
     color: white;
 }
 
+.decoration {
+    text-align: center;
+}
+
+.decoration hr {
+    display: inline-block;
+    width: 10%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.decoration i {
+    margin: 0 20px;
+    font-size: 30px;
+}
+.decoration_darkblue hr {
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+}
 
 /* Header */
 .my_navbar {
@@ -144,6 +162,7 @@ h3 {
     /* letter-spacing: 1px; */
     font-weight: 600;
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 #contact {
