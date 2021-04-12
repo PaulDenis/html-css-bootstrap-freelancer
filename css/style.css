@@ -16,6 +16,21 @@ h3 {
 
 .my_btn {
     border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.my_btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.green_btn {
+    background-color: #1abc9c;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.green_btn:hover {
+    background-color: #159a80;
     color: white;
 }
 
@@ -130,4 +145,39 @@ h3 {
     /* letter-spacing: 1px; */
     font-weight: 600;
     padding-bottom: 50px;
+}
+
+#contact h2 {
+    text-align: center  ;
+}
+
+/* form */
+.my_style_form {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    color: #2c3e50;
+    font-weight: 600;
+    
+}
+.my_style_form::placeholder { 
+    color: #2c3e50;
+    opacity: 1;
+}
+  
+.my_style_form:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #2c3e50;
+}
+
+.my_style_form::-ms-input-placeholder { /* Microsoft Edge */
+    color: #2c3e50;
+}
+
+#text_area {
+    padding-top: 20px;
+    padding-bottom: 200px;
 }
