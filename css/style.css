@@ -1,15 +1,29 @@
 
 #jumbotron {
-    height: 300px;
-    background-color: greenyellow;
-    margin-top: 70px;
-}
-
-h2,
-h3 {
-
+    /* height: 300px; */
     text-align: center;
+    margin-top: 70px;
+    background-color: #1abc9c;
+    color: white;
+    text-transform: uppercase;
+
 }
+
+#jumbotron_avatar {
+    height: 200px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+
 
 .wrapper_60 {
     width: 60%;
